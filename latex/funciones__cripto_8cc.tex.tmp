@@ -1,0 +1,53 @@
+\hypertarget{funciones__cripto_8cc}{}\section{funciones\+\_\+cripto.\+cc File Reference}
+\label{funciones__cripto_8cc}\index{funciones\+\_\+cripto.\+cc@{funciones\+\_\+cripto.\+cc}}
+
+
+Nos encontramos con un programa cuya finalidad será encriptar y / o desencriptar archivos de texto. Si el programa se ejecuta sin pasar parámetros en la línea de comandos.  
+
+
+{\ttfamily \#include $<$stdlib.\+h$>$}\newline
+{\ttfamily \#include $<$stdio.\+h$>$}\newline
+{\ttfamily \#include \char`\"{}funciones\+\_\+cripto.\+h\char`\"{}}\newline
+Include dependency graph for funciones\+\_\+cripto.\+cc\+:
+% FIG 0
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{funciones__cripto_8cc_a67aa8315bd041a07febe09997f2428b8}{cifrado\+\_\+xor} (char $\ast$file\+\_\+in, char $\ast$file\+\_\+out, std\+::string key)
+\item 
+void \hyperlink{funciones__cripto_8cc_aa797bf16e8f0f5b3a4e362e1ae67051f}{cifrado\+\_\+cesar} (char $\ast$file\+\_\+in, char $\ast$file\+\_\+out, std\+::string op)
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Nos encontramos con un programa cuya finalidad será encriptar y / o desencriptar archivos de texto. Si el programa se ejecuta sin pasar parámetros en la línea de comandos. 
+
+Universidad de La Laguna Escuela Superior de Ingeniería y Tecnología Grado en Ingeniería Informática Informática Básica
+
+\begin{DoxyAuthor}{Author}
+Carlos Ravina 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+11 Dec 2020 
+\end{DoxyDate}
+\begin{DoxyRefDesc}{Bug}
+\item[\hyperlink{bug__bug000001}{Bug}]No hay bugs conocidos \end{DoxyRefDesc}
+\begin{DoxySeeAlso}{See also}
+\href{https://www.cs.cmu.edu/~410/doc/doxygen.html}{\tt https\+://www.\+cs.\+cmu.\+edu/$\sim$410/doc/doxygen.\+html} 
+\end{DoxySeeAlso}
+
+
+\subsection{Function Documentation}
+\mbox{\Hypertarget{funciones__cripto_8cc_aa797bf16e8f0f5b3a4e362e1ae67051f}\label{funciones__cripto_8cc_aa797bf16e8f0f5b3a4e362e1ae67051f}} 
+\index{funciones\+\_\+cripto.\+cc@{funciones\+\_\+cripto.\+cc}!cifrado\+\_\+cesar@{cifrado\+\_\+cesar}}
+\index{cifrado\+\_\+cesar@{cifrado\+\_\+cesar}!funciones\+\_\+cripto.\+cc@{funciones\+\_\+cripto.\+cc}}
+\subsubsection{\texorpdfstring{cifrado\+\_\+cesar()}{cifrado\_cesar()}}
+{\footnotesize\ttfamily void cifrado\+\_\+cesar (\begin{DoxyParamCaption}\item[{char $\ast$}]{file\+\_\+in,  }\item[{char $\ast$}]{file\+\_\+out,  }\item[{std\+::string}]{op }\end{DoxyParamCaption})}
+
+Función para realizar el cifrado César. \mbox{\Hypertarget{funciones__cripto_8cc_a67aa8315bd041a07febe09997f2428b8}\label{funciones__cripto_8cc_a67aa8315bd041a07febe09997f2428b8}} 
+\index{funciones\+\_\+cripto.\+cc@{funciones\+\_\+cripto.\+cc}!cifrado\+\_\+xor@{cifrado\+\_\+xor}}
+\index{cifrado\+\_\+xor@{cifrado\+\_\+xor}!funciones\+\_\+cripto.\+cc@{funciones\+\_\+cripto.\+cc}}
+\subsubsection{\texorpdfstring{cifrado\+\_\+xor()}{cifrado\_xor()}}
+{\footnotesize\ttfamily void cifrado\+\_\+xor (\begin{DoxyParamCaption}\item[{char $\ast$}]{file\+\_\+in,  }\item[{char $\ast$}]{file\+\_\+out,  }\item[{std\+::string}]{key }\end{DoxyParamCaption})}
+
+Función para realizar el cifrado xor. 
